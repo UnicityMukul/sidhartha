@@ -2092,4 +2092,80 @@
      padding: 13px 10px;
    }
  }
- 
+
+.site-nav-menu .sub-menu li {
+  margin: 5px 0; /* Space between items */
+  border-bottom: 1px solid #ddd; /* Line between items */
+  padding-bottom: 5px;
+}
+
+.site-nav-menu .sub-menu li:last-child {
+  border-bottom: none; /* Remove line for last item */
+}
+
+.site-nav-menu .sub-menu li a {
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Default sub-menu styling */
+.sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Show sub-menu on hover */
+li:hover > .sub-menu {
+  display: block;
+}
+
+/* Specific styling for Cleaning Equipments sub-menu */
+.cleaning-sub-menu {
+  top: 0; /* Adjust positioning to prevent overlap */
+  left: 100%; /* Make it appear to the right */
+  margin-left: 220px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 200px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .sub-menu {
+      display: block;
+      position: static;
+      background-color: transparent;
+      box-shadow: none;
+      margin: 0;
+      padding: 0;
+  }
+
+  .cleaning-sub-menu {
+      margin-left: 0;
+      border: none;
+      width: 100%;
+  }
+
+  li {
+      text-align: left;
+  }
+}
