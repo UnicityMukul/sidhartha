@@ -640,7 +640,8 @@
    padding-left: 25px;
    padding-bottom: 15px;
    display: inline-block;
-   background: #ffc000;
+   font-weight: 100;
+   background: transparent;
  }
  
  .hero-item h2 span:nth-child(1) {
