@@ -1154,7 +1154,7 @@
  }
  
  .page-top-section h2 {
-   font-weight: 300;
+   font-weight: 600;
    color: #fff;
    margin-bottom: 25px;
  }
@@ -1579,7 +1579,7 @@
  }
  
  .blog-post .blog-thumb {
-   height: 331px;
+   height: 500px;
    padding-top: 15px;
    margin-bottom: 20px;
  }
@@ -2193,3 +2193,6 @@ li:hover > .sub-menu {
 .has-sub-menu:hover > .cleaning-sub-menu {
   display: block;
 }
+
+
+
