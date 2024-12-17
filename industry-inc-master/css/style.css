@@ -2281,3 +2281,8 @@ li:hover > .sub-menu {
   width: 200px;
   overflow: hidden;
 }
+
+.logo{
+  height: 46px;
+  width: 320px;
+}
