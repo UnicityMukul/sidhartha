@@ -1579,7 +1579,7 @@
  }
  
  .blog-post .blog-thumb {
-   height: 500px;
+   height: 550px;
    padding-top: 15px;
    margin-bottom: 20px;
  }
@@ -1661,6 +1661,12 @@
    margin-bottom: 30px;
  }
  
+ .blog-post ul{
+  list-style-type:square;
+  margin-bottom: 20px;
+
+ }
+
  .blog-post p {
    margin-bottom: 30px;
  }
@@ -2194,5 +2200,84 @@ li:hover > .sub-menu {
   display: block;
 }
 
+.blog-content ul {
+  list-style-type:disc;
+  margin-bottom: 20px;
+}
+
+.blog-content li {
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.description-heading{
+  margin-bottom: 20px;
+}
+
+.list-heading{
+  margin-bottom: 8px;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.table{
+  width: 100%;
+  max-width: 100%;
+  margin: 10px 0;
+  line-height: 20px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  box-sizing: border-box;
+}
+
+.table td{
+  display: table-cell;
+  vertical-align: inherit;
+  unicode-bidi: isolate;
+}
+
+
+
+
+.table tbody tr td{
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  padding: 13px 8px;
+  border-color: #e6e6e6;
+  
+
+}
+
+.table td + td {
+  border-left: 1px solid grey;
+}
+
+.grey{
+  white-space: nowrap;
+  padding: 10px;
+  text-overflow: ellipsis;
+  width: 200px;
+  overflow: hidden;
+}
