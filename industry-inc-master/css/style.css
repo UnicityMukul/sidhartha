@@ -2329,3 +2329,20 @@ li:hover > .sub-menu {
   display: block; /* Makes it a block element */
 }
 
+.blog-thumb {
+  position: relative;
+  width: 100%; /* Full width of the container */
+  max-width: 600px; /* Optional: Adjust as needed for your design */
+  margin: 0 auto; /* Centers the div horizontally */
+  overflow: hidden; /* Ensures content doesn't overflow */
+  height: 500px;
+}
+
+.blog-thumb img {
+    width: auto; /* Makes the image slightly larger than the container */
+    height: 100%; /* Maintains aspect ratio */
+    display: block; /* Removes extra spaces around the image */
+    transform: scale(1.1); /* Scales the image to make it bigger */
+    object-fit: cover; 
+    margin: auto;
+}
