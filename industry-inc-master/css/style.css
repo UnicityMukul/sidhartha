@@ -500,6 +500,8 @@
    display: -webkit-inline-box;
    display: -ms-inline-flexbox;
    display: inline-flex;
+   position: relative;
+   z-index: 10;
  }
  
  .site-nav-menu ul {
@@ -2286,3 +2288,44 @@ li:hover > .sub-menu {
   height: 46px;
   width: 320px;
 }
+
+/* Ensure the header and nav menu are properly positioned */
+.header-section {
+  position: relative;
+  z-index: 10;
+  background-color: #fff; /* Optional: Ensure visibility of the header */
+}
+
+/* Prevent overlapping of header and sections */
+.services-section {
+  position: relative;
+  z-index: 1;
+  padding-top: 20px; /* Add padding to avoid visual overlap */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blog-thumb {
+  background-size: contain; /* Ensures the entire image fits within the container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+  width: 100%; /* Ensures it fits the container width */
+  height: 300px; /* Set a fixed height */
+  display: block; /* Makes it a block element */
+}
+
