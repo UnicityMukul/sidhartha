@@ -987,7 +987,8 @@
  }
  
  .footer-widget.about-widget img {
-   margin-bottom: 40px;
+   margin-bottom: 20px;
+   margin-left: -15px;
  }
  
  .footer-widget.about-widget p {
@@ -2303,23 +2304,6 @@ li:hover > .sub-menu {
   padding-top: 20px; /* Add padding to avoid visual overlap */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .blog-thumb {
   background-size: contain; /* Ensures the entire image fits within the container */
   background-position: center; /* Centers the image */
@@ -2333,4 +2317,9 @@ li:hover > .sub-menu {
     width: 100%; /* Ensures the image takes full width */
     height: auto; /* Maintains aspect ratio */
     display: block;
+}
+
+.logo_footer{
+  height: 46px;
+  width: 400px;
 }
