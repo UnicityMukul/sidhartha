@@ -1,16 +1,15 @@
 {
-    "redirects": [
-      {
-        "source": "/:path.html",
-        "destination": "/:path",
-        "permanent": true
-      }
-    ],
-    "rewrites": [
-      {
-        "source": "/:path",
-        "destination": "/:path.html"
-      }
-    ]
-  }
-  
+  "redirects": [
+    {
+      "source": "/:path*/:file.html",
+      "destination": "/:path*/:file",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/:path*/:file",
+      "destination": "/:path*/:file.html"
+    }
+  ]
+}

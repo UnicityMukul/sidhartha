@@ -1585,6 +1585,8 @@
    height: 550px;
    padding-top: 15px;
    margin-bottom: 20px;
+   /* added later for product image border */
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
  
  .blog-post .blog-date {
@@ -2115,24 +2117,6 @@
 .site-nav-menu .sub-menu li a {
   color: #333;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Default sub-menu styling */
 .sub-menu {
   display: none;
@@ -2142,14 +2126,10 @@
   z-index: 1;
   padding: 10px;
 }
-
-
-
 /* Show sub-menu on hover */
 li:hover > .sub-menu {
   display: block;
 }
-
 /* Specific styling for Cleaning Equipments sub-menu */
 .cleaning-sub-menu {
   top: -50% !important ;/* Adjust positioning to prevent overlap */
@@ -2164,7 +2144,6 @@ li:hover > .sub-menu {
   z-index: 10;
   padding: 10px;
 }
-
 @media only screen and (max-width: 767px) {
   .sub-menu {
       display: block;
@@ -2185,19 +2164,6 @@ li:hover > .sub-menu {
       text-align: left;
   }
 }
-
-
-/* .cleaning-sub-menu {
-  top: -100%;
-  left: 0;
-  margin-left: 100%;
-  border: 1px solid #ccc;
-  background-color: #fff;
-  width: 200px;
-  margin-top: -100%;
-  position: absolute;
-  z-index: 10;
-} */
 
 .has-sub-menu:hover > .cleaning-sub-menu {
   display: block;
@@ -2222,24 +2188,6 @@ li:hover > .sub-menu {
   margin-bottom: 8px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .table{
   width: 100%;
   max-width: 100%;
@@ -2258,9 +2206,6 @@ li:hover > .sub-menu {
   vertical-align: inherit;
   unicode-bidi: isolate;
 }
-
-
-
 
 .table tbody tr td{
   padding: 8px;
@@ -2289,21 +2234,18 @@ li:hover > .sub-menu {
   height: 46px;
   width: 320px;
 }
-
 /* Ensure the header and nav menu are properly positioned */
 .header-section {
   position: relative;
   z-index: 10;
   background-color: #fff; /* Optional: Ensure visibility of the header */
 }
-
 /* Prevent overlapping of header and sections */
 .services-section {
   position: relative;
   z-index: 1;
   padding-top: 20px; /* Add padding to avoid visual overlap */
 }
-
 .blog-thumb {
   background-size: contain; /* Ensures the entire image fits within the container */
   background-position: center; /* Centers the image */
@@ -2312,14 +2254,25 @@ li:hover > .sub-menu {
   height: 300px; /* Set a fixed height */
   display: block; /* Makes it a block element */
 }
-
 .blog-thumb img {
     width: 100%; /* Ensures the image takes full width */
     height: auto; /* Maintains aspect ratio */
     display: block;
 }
-
 .logo_footer{
   height: 46px;
   width: 400px;
+}
+.pump-table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+.pump-table th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.pump-table th {
+  background-color: #f4f4f4;
 }
