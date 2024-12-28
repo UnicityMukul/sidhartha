@@ -13,13 +13,13 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
-
- html,
- body {
+html,
+.body {
    height: 100%;
    font-family: "Open Sans", sans-serif;
    -webkit-font-smoothing: antialiased;
-   font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   /* font-smoothing: antialiased; */
  }
  
  h1,
@@ -2273,4 +2273,23 @@ li:hover > .sub-menu {
 }
 .pump-table th {
   background-color: #f4f4f4;
+}
+.footer-widget ul li a {
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+.footer-widget ul li a:hover {
+  color: #ffc000; /* Change color on hover */
+}
+.search-results div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.search-results div a {
+  text-decoration: solid;
+  color: #ffc000;
+  transition: color 0.3s;
+}
+.search-results div a:hover {
+  color: #ffc000;
 }
