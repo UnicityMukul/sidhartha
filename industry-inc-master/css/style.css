@@ -2229,8 +2229,9 @@ li:hover > .sub-menu {
 }
 
 .logo{
-  height: 46px;
-  width: 320px;
+   height: 45px;
+   width: 275px;
+   object-fit: scale-down;
 }
 /* Ensure the header and nav menu are properly positioned */
 .header-section {
@@ -2292,4 +2293,8 @@ li:hover > .sub-menu {
 }
 .search-results div a:hover {
   color: #ffc000;
+}
+.about-comp{
+  margin-left: 20px;
+  font-weight: 300;
 }
