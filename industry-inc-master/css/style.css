@@ -1180,8 +1180,13 @@ html,
  
  .about-text h2 {
    font-weight: 300;
-   margin-bottom: 30px;
+   margin-bottom: 10px;
  }
+
+ .about-text h5 {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
  
  .about-text p {
    line-height: 2.2;
@@ -2304,6 +2309,8 @@ li:hover > .sub-menu {
 .about-comp{
   margin-left: 20px;
   font-weight: 300;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .fib-text a :hover{
@@ -2313,3 +2320,30 @@ li:hover > .sub-menu {
 .hib-text a :hover{
   color: #ffc000;
 }
+
+table.about-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+table.about-table th, 
+table.about-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+table.about-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+table.about-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
