@@ -737,6 +737,10 @@ html,
  .service-item .si-head {
    overflow: hidden;
    margin-bottom: 20px;
+ } 
+ 
+ .service-item .si-head h5 a :hover {
+  color: #ffc000;
  }
  
  .service-item .si-icon {
@@ -2154,6 +2158,7 @@ li:hover > .sub-menu {
   z-index: 10;
   padding: 10px;
 }
+
 @media only screen and (max-width: 767px) {
   .sub-menu {
       display: block;
@@ -2347,3 +2352,10 @@ table.about-table tr:nth-child(even) {
   background-color: #f9f9f9;
 }
 
+.hover-service{
+  color: black;
+}
+
+.hover-service:hover{
+  color: #ffc000;
+}
