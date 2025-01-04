@@ -108,6 +108,11 @@ html,
    padding-top: 103px;
    padding-bottom: 103px;
  }
+
+ .spad-2{
+  padding: 1px;
+  background-color: #ffc000;
+ }
  
  .text-white h1,
  .text-white h2,
@@ -899,14 +904,16 @@ html,
  
  .testimonial h5 {
    font-weight: 400;
-   font-size: 18px;
+   font-size: 20px;
    color: #fff;
    padding-top: 20px;
+   margin-left: 10px;
  }
  
  .testimonial span {
    font-size: 12px;
    color: #718090;
+   margin-left: 10px;
  }
  
  /* ------------------------
@@ -987,8 +994,8 @@ html,
  }
  
  .footer-widget.about-widget img {
-   margin-bottom: 20px;
-   margin-left: -15px;
+   margin-bottom: 15px;
+   margin-left: -22px;
  }
  
  .footer-widget.about-widget p {
@@ -2259,8 +2266,8 @@ li:hover > .sub-menu {
     display: block;
 }
 .logo_footer{
-  height: 46px;
-  width: 400px;
+  height: 38px;
+  width: 300px;
 }
 .pump-table {
   width: 50%;
@@ -2297,4 +2304,12 @@ li:hover > .sub-menu {
 .about-comp{
   margin-left: 20px;
   font-weight: 300;
+}
+
+.fib-text a :hover{
+  color: #ffc000;
+}
+
+.hib-text a :hover{
+  color: #ffc000;
 }
