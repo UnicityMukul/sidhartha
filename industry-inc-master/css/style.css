@@ -925,7 +925,8 @@ li:hover>.sub-menu {
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center
+    justify-content: center;
+    margin-top: -55px;
 }
 
 .milestone,
@@ -1540,7 +1541,7 @@ li:hover>.sub-menu {
 
 .map-info {
     max-width: 293px;
-    padding: 79px 25px 75px;
+    padding: 34px 25px 30px;
     background: #ffc000;
     position: relative
 }
